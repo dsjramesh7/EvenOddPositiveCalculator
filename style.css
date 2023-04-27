@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(to right bottom,rgb(178, 243, 178),rgb(250, 128, 128));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin: 14px;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(224, 38, 38);
+}
+
+#input-number{
+    padding: 14px 16px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px ;
+    margin: 14px;
+    width: 90%;
+}
+
+#btn{
+    width:220px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: lightskyblue;     
+}
+
+#btn:hover{
+    cursor: pointer;
+    background: red;
+    color: whitesmoke;
+    transition: 400ms ease;
+}
+
+
+
+
